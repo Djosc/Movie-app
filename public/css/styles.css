@@ -1,0 +1,81 @@
+
+:root {
+    --background-color: ;
+    --secondary-color: ;
+}
+
+* {
+    box-sizing: border-box;
+}
+ /* todo color */
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid #000;
+    padding: 1.5rem;
+}
+
+header input {
+    background-color: transparent;
+    border-radius: 50px;
+    /* TODO add color to search border*/
+    border: 2px solid ;
+    font-family: inherit;
+    padding: 0.5rem;
+}
+
+header button {
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    margin-right: 0.25rem;
+    padding-top: 4px;
+}
+ 
+.search-icon {
+    background-color: transparent;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-evenly;
+}
+
+.movie-card {
+    /* todo add color */
+    /* background-color: ; */
+    cursor: pointer;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 300px;
+}
+
+.movie-card img {
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.movie-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 50px;
+    padding: 0.7rem 1rem 0.5rem;
+}
+
+.movie-card h2 {
+    font-size: 1.2rem;
+}
+
+.movie-card-info span {
+    font-weight: bold;
+}
